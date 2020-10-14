@@ -6,9 +6,9 @@
   --mainYellow:#ffa400;
 }
 body{
-  font-family: "Oswald", sans-serif !important;
-  background-color: var(--mainWhite) !important;
-  color: var(--mainDark) !important;
+  font-family:"Oswald", sans-serif !important;
+  background: var(--mainWhite)!important;
+  color:var(--mainDark)!important;
 }
 .text-title{
   font-family: 'Permanent Marker', cursive;
@@ -19,8 +19,8 @@ body{
   color: var(--mainBlue);
 }
 .text-bright{
-  color: var(--lightBlue);
-}
+  color:var(--lightBlue)
+;}
 .btn-black{
   background: transparent;
   text-transform: capitalize;
@@ -29,12 +29,14 @@ body{
   border-radius: 0 !important;
   border: 0.1rem solid var(--mainDark) !important;
 }
-.btn-black:hover {
-  background: var(--mainDark)!important;
-  color: var(--mainWhite)!important;
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
 }
-.cart-icon {
+
+.cart-icon{
   cursor: pointer;
   font-size: 1.2rem;
-  color: var(--mainYellow)
+  color: var(--mainYellow);
 }
